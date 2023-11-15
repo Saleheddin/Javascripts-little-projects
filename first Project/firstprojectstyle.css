@@ -1,0 +1,56 @@
+
+body{
+    background-color: olivedrab !important;
+    font-family: 'Quicksand' !important;
+    height: auto !important;	
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    margin: 40px;
+    margin-inline: auto;
+    padding:20px 40px ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font: "Quicksand" !important;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.advice{
+    background-color: greenyellow;
+    color: black !important;
+    padding: 100px 5vw ;
+    border-radius: 20px;
+    margin: auto !important;
+    font-size: 30px;
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+}
+h1{
+    margin: auto;
+    height: 50px;
+    margin-top: 50px;
+}
+q{
+    text-align: center !important;
+}
+
+footer{
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    margin: 100px;
+}
+
+a{
+    margin-inline: 5px;
+}
